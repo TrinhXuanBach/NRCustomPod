@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'MyFirstPod_Example' do
-  pod 'MyFirstPod', :path => '../'
+target 'NRCustomPod_Example' do
+  pod 'NRCustomPod', :path => '../'
 
-  target 'MyFirstPod_Tests' do
+  target 'NRCustomPod_Tests' do
     inherit! :search_paths
 
     

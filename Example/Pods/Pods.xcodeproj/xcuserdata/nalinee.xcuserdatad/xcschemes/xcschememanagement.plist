@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MyFirstPod.xcscheme</key>
+		<key>NRCustomPod.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MyFirstPod_Example.xcscheme</key>
+		<key>Pods-NRCustomPod_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MyFirstPod_Tests.xcscheme</key>
+		<key>Pods-NRCustomPod_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

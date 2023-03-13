@@ -1,9 +1,9 @@
-# MyFirstPod
+# NRCustomPod
 
-[![CI Status](https://img.shields.io/travis/NalineeR/MyFirstPod.svg?style=flat)](https://travis-ci.org/NalineeR/MyFirstPod)
-[![Version](https://img.shields.io/cocoapods/v/MyFirstPod.svg?style=flat)](https://cocoapods.org/pods/MyFirstPod)
-[![License](https://img.shields.io/cocoapods/l/MyFirstPod.svg?style=flat)](https://cocoapods.org/pods/MyFirstPod)
-[![Platform](https://img.shields.io/cocoapods/p/MyFirstPod.svg?style=flat)](https://cocoapods.org/pods/MyFirstPod)
+[![CI Status](https://img.shields.io/travis/NalineeR/NRCustomPod.svg?style=flat)](https://travis-ci.org/NalineeR/NRCustomPod)
+[![Version](https://img.shields.io/cocoapods/v/NRCustomPod.svg?style=flat)](https://cocoapods.org/pods/NRCustomPod)
+[![License](https://img.shields.io/cocoapods/l/NRCustomPod.svg?style=flat)](https://cocoapods.org/pods/NRCustomPod)
+[![Platform](https://img.shields.io/cocoapods/p/NRCustomPod.svg?style=flat)](https://cocoapods.org/pods/NRCustomPod)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-MyFirstPod is available through [CocoaPods](https://cocoapods.org). To install
+NRCustomPod is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MyFirstPod'
+pod 'NRCustomPod'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ NalineeR, nalinee.rajpurohit95@gmail.com
 
 ## License
 
-MyFirstPod is available under the MIT license. See the LICENSE file for more info.
+NRCustomPod is available under the MIT license. See the LICENSE file for more info.

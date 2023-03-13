@@ -1,16 +1,16 @@
 PODS:
-  - MyFirstPod (0.1.0)
+  - NRCustomPod (0.1.0)
 
 DEPENDENCIES:
-  - MyFirstPod (from `../`)
+  - NRCustomPod (from `../`)
 
 EXTERNAL SOURCES:
-  MyFirstPod:
+  NRCustomPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyFirstPod: b0a0dac4712236e69791b8efce83a32cfbc1d010
+  NRCustomPod: a3bdef38a90ca6708db48307d59b67de5410999d
 
-PODFILE CHECKSUM: 00d35cbe2be83fb97d3f5b0b6f3c92cb1b13eee7
+PODFILE CHECKSUM: b537a4903e24fb87904f5340d9bd3225d9941f74
 
 COCOAPODS: 1.11.2

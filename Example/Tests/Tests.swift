@@ -1,5 +1,5 @@
 import XCTest
-import MyFirstPod
+import NRCustomPod
 
 class Tests: XCTestCase {
     
