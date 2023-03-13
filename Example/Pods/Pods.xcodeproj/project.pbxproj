@@ -16,6 +16,7 @@
 		AD99F7EE8D8A5051C3C88B1EF6844B21 /* NRCustomPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4AD8A9406983A6350927D19CE06A07 /* NRCustomPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD69A5693A46EE8023B855F76FB3C9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D3FC3F9ADC0A34D652963C9E0ABEDF26 /* Pods-NRCustomPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3669179AE6E5519F28E90D8744A9CA /* Pods-NRCustomPod_Example-dummy.m */; };
+		FCF4D1DF29BF22E0003FCF02 /* NRCustomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF4D1DE29BF22E0003FCF02 /* NRCustomHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRCustomPod; path = NRCustomPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRCustomPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AD2BD599963952A29BE162DB4D7C07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2B3669179AE6E5519F28E90D8744A9CA /* Pods-NRCustomPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRCustomPod_Example-dummy.m"; sourceTree = "<group>"; };
 		30271B9D1B6A21FB67B75956488FE453 /* NRCustomPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRCustomPod-prefix.pch"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		ED302A7FE83521914D9C62FF8ACE10E7 /* NRCustomPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRCustomPod.modulemap; sourceTree = "<group>"; };
 		F65F4ED074DCA40954AE9CD8FC0BB62D /* NRCustomPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRCustomPod.debug.xcconfig; sourceTree = "<group>"; };
 		F9595E6FA5DDA17E55B6284640A2CF15 /* Pods-NRCustomPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRCustomPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCF4D1DE29BF22E0003FCF02 /* NRCustomHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCustomHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,7 @@
 		7469A09ED5558F60DA76423CC0B6F07A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod */,
+				0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod.framework */,
 				7912119121C0550E64E34345F4E4FF8D /* Pods-NRCustomPod_Example */,
 				EA96C9F9A428C40B1F5622BB19EAFCF2 /* Pods-NRCustomPod_Tests */,
 			);
@@ -232,6 +234,7 @@
 		FCF4D1DD29BF2279003FCF02 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FCF4D1DE29BF22E0003FCF02 /* NRCustomHelper.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -300,7 +303,7 @@
 			);
 			name = NRCustomPod;
 			productName = NRCustomPod;
-			productReference = 0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod */;
+			productReference = 0E6FCB7C03E45BDEC7BFB76B2DB81499 /* NRCustomPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D7FF9ABCE418F3050C317C4777326B69 /* Pods-NRCustomPod_Tests */ = {
@@ -330,6 +333,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7BC0444F9CEA1AA2EF603C8A6BFDAAE0 = {
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -396,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF4D1DF29BF22E0003FCF02 /* NRCustomHelper.swift in Sources */,
 				88E24181AF1510F5412CDCA8A2537B9C /* NRCustomPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F65F4ED074DCA40954AE9CD8FC0BB62D /* NRCustomPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,6 +520,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -582,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FC977AC1CDEC91030F5BC28C48489E4 /* NRCustomPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
