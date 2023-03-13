@@ -213,8 +213,8 @@
 		DEFCF5D24AACA261CDE652EB911B65D5 /* NRCustomPod */ = {
 			isa = PBXGroup;
 			children = (
+				FCF4D1DD29BF2279003FCF02 /* Sources */,
 				FCF4D1DC29BF210D003FCF02 /* Resources */,
-				FCF4D1DB29BF2106003FCF02 /* Sources */,
 				53415AD2005204BC0202FA3B6DA25F62 /* Pod */,
 				49F8D02942571E3AE830D75A0EA83D23 /* Support Files */,
 			);
@@ -222,18 +222,18 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FCF4D1DB29BF2106003FCF02 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		FCF4D1DC29BF210D003FCF02 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCF4D1DD29BF2279003FCF02 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
