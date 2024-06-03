@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Sources/**/*'
-#  s.resources = "Resources/**/*.{png,xib}"
+  s.resources = "Resources/**/*.{png,xib}"
   
   s.resource_bundles = {
      'NRCustomPod' => ['NRCustomPod/Assets/*.png']
